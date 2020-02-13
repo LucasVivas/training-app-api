@@ -5,5 +5,5 @@ var server = http.createServer(function(req, res) {
   res.end('Training app');
 });
 
-server.listen(8080); 
-console.log("Listening on the port 8080...")
+server.listen(3000); 
+console.log("Listening on the port 3000...")

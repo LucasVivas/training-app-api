@@ -2,10 +2,10 @@
   "name": "trainingapp",
   "version": "0.0.1",
   "description": "My personal web app for climbing training",
-  "main": "server.js",
+  "main": "src/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node src/app.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,7 @@
   "bugs": {
     "url": "https://github.com/LucasVivas/TrainingApp/issues"
   },
-  "homepage": "https://github.com/LucasVivas/TrainingApp#readme"
+  "homepage": "https://github.com/LucasVivas/TrainingApp#readme",
+  "dependencies": {},
+  "devDependencies": {}
 }

@@ -2,10 +2,10 @@
   "name": "trainingapp",
   "version": "0.0.1",
   "description": "My personal web app for climbing training",
-  "main": "src/app.js",
+  "main": "src/app.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/app.js"
+    "start": "nodemon"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,15 @@
     "url": "https://github.com/LucasVivas/TrainingApp/issues"
   },
   "homepage": "https://github.com/LucasVivas/TrainingApp#readme",
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.2.10"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.23",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  }
 }

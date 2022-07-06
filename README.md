@@ -2,7 +2,7 @@
 A personal web app for climbing training
 
 # Schema Mongo
-
+```
 training : {
     id: string,
     userId: string,
@@ -16,3 +16,4 @@ training : {
         }
     ]
 } 
+```

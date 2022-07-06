@@ -8,11 +8,11 @@ training : {
     userId: string,
     title: string
     exercices: [
-        exercice: {
+        {
             id: string,
-            name : string,
-            timer: int,
-
+            name: string,
+            description: string,
+            timer: int
         }
     ]
 } 

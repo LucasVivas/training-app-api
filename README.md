@@ -5,14 +5,12 @@ A personal web app for climbing training
 ```
 training : {
     id: string,
-    userId: string,
     title: string
     exercices: [
         {
             id: string,
             name: string,
-            description: string,
-            timer: int
+            description: string
         }
     ]
 } 
